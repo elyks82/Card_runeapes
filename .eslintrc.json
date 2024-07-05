@@ -1,0 +1,53 @@
+{
+  "extends": [
+    "prettier",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": ["prettier", "react", "@typescript-eslint", "react-hooks", "import"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "project": ["./tsconfig.json"],
+    "tsconfigRootDir": "."
+  },
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "prettier/prettier":  [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "react/react-in-jsx-scope": "off",
+    "no-unused-expressions": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "@typescript-eslint/no-unnecessary-type-arguments": 1,
+    "@typescript-eslint/no-unnecessary-qualifier": 1,
+    "@typescript-eslint/no-unnecessary-condition": 1,
+    "@typescript-eslint/no-unsafe-member-access": 0,
+    "@typescript-eslint/no-unnecessary-type-assertion": 1,
+    "no-unused-vars": [
+      2,
+      {
+        "varsIgnorePattern": "^_",
+        "ignoreRestSiblings": true,
+        "argsIgnorePattern": "^_",
+        "vars": "all",
+        "args": "after-used"
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": [
+      "warn",
+      {
+        "additionalHooks": "useDerivedRef"
+      }
+    ],
+    "import/newline-after-import": "error",
+    "no-console": ["error", { "allow": ["error", "warn"] }]
+  }
+}

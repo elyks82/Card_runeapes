@@ -1,0 +1,76 @@
+{
+  "name": "@runeapes/apebrush",
+  "version": "0.0.4",
+  "description": "The component library for the Runeapes ecosystem",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "prepare": "husky && husky install",
+    "test:typings": "tsc --noEmit",
+    "eslint": "eslint",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runeapespad/Apebrush.git"
+  },
+  "author": "Runeapes Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/runeapespad/Apebrush/issues"
+  },
+  "homepage": "https://github.com/runeapespad/Apebrush#readme",
+  "dependencies": {
+    "lightweight-charts": "^4.1.5",
+    "react-aria-components": "^1.2.1",
+    "styled-components": "^6.1.11"
+  },
+  "devDependencies": {
+    "@adobe/react-spectrum": "^3.35.1",
+    "@chromatic-com/storybook": "^1.5.0",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@storybook/addon-backgrounds": "^8.1.6",
+    "@storybook/addon-essentials": "^8.1.6",
+    "@storybook/addon-interactions": "^8.1.6",
+    "@storybook/addon-links": "^8.1.6",
+    "@storybook/addon-onboarding": "^8.1.6",
+    "@storybook/blocks": "^8.1.6",
+    "@storybook/react": "^8.1.6",
+    "@storybook/react-vite": "^8.1.6",
+    "@storybook/test": "^8.1.6",
+    "@types/react": "^18.3.3",
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/parser": "^7.12.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "prettier": "^3.3.1",
+    "prop-types": "^15.8.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "storybook": "^8.1.6"
+  },
+  "lint-staged": {
+    "*.module.css": [
+      "prettier --write"
+    ],
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "yarn eslint"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="296.82361"
+   height="101.85334"
+   viewBox="0 0 78.534582 26.948697"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.9628563"
+     inkscape:cx="143.92291"
+     inkscape:cy="76.673978"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-33.736709,-47.970465)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.85402;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 54.477384,62.329372 -1.999996,-0.581474 -5.817111,4.82101 5.448427,2.990638 -15.242463,0.03199 4.451502,-3.436634 5.53206,-4.270853 -0.03813,-4.518305 1.819887,-4.676148 5.201177,0.0021 -0.03283,4.676569 -4.815293,0.0052 -2.704015,-4.713929 -6.44882,-0.01207 -3.595074,4.651735 v 4.095755 l 7.028361,0.0087"
+       id="path2933"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:12.6958px;line-height:0.8;font-family:Inter;-inkscape-font-specification:'Inter Heavy';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.952197"
+       x="59.135395"
+       y="60.294823"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0.8;font-family:'Hellix TRIAL';-inkscape-font-specification:'Hellix TRIAL Bold';stroke-width:0.952197"
+         x="59.135395"
+         y="60.294823">Ape</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0.8;font-family:'Hellix TRIAL';-inkscape-font-specification:'Hellix TRIAL Bold';stroke-width:0.952197"
+         x="59.135395"
+         y="70.718773"
+         id="tspan2">Brush</tspan></text>
+  </g>
+</svg>

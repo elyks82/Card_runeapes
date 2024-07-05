@@ -1,0 +1,24 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.tabSize": 2,
+  "eslint.enable": true,
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true
+}
